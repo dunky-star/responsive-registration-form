@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+    <meta name="viewport" content="initial-scale = 1, maximum-scale = 1, user-scalable = no, width = device-width">
+    <title>Code with dunky</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="center">
+          <h1>Register</h1>
+          <form method="POST" action="RegistrationController.java">
+              <div class="txt_field">
+                  <input type="text" name="name" required>
+                  <span></span>
+                  <label>Name</label>
+              </div>
+              <div class="txt_field">
+                  <input type="email" name="email" required>
+                  <span></span>
+                  <label>Email</label>
+              </div>
+              <div class="txt_field">
+                  <input type="password" name="password" required>
+                  <span></span>
+                  <label>Password</label>
+              </div>
+              <div class="txt_field">
+                  <input type="password" name="cpassword" required>
+                  <span></span>
+                  <label>Confirm Password</label>
+              </div>
+              <input name="submit" type="Submit" value="Sign Up">
+              <div class="signup_link">
+                  Have an Account ? <a href="LoginForm.jsp">Login Here</a>
+              </div>
+          </form>
+      </div>
+  </div>
+  </body>
+</html>
